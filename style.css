@@ -151,3 +151,16 @@ section .row .col-4 img{
 .swiper-wrapper{
 margin-bottom: 50px;
 }
+
+.swiper-slide .slide button{
+    background-color: transparent;
+    border: 1px solid orange;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.swiper-slide .slide button:hover{
+    background-color: orangered;
+    color: white;
+   
+}
