@@ -76,6 +76,7 @@ section .row .col-4 img{
     font-weight: bold;
     font-size: 35px;
 }
+
 .carousel-item{
     margin: 30px 0px;
 }
@@ -111,9 +112,42 @@ section .row .col-4 img{
     border: 1px solid black;
 }
 
+.review h2{
+    margin: 20px 90px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 35px;
+}
 
+.swiper {
+    width: 100%;
+    height: 100%;
+   
+  }
 
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
+  .slide img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+  }
 
-
+.swiper-wrapper{
+margin-bottom: 50px;
+}
