@@ -117,35 +117,3 @@ section .row .col-4 img{
 
 
 
-
-
-.carousel-inner .row {
-    display: flex;
- }
- 
- .carousel-inner .col-md-4 {
-    flex: 1;
-    padding: 15px;
- }
- 
- .carousel-inner .carousel-item {
-    background-color: #f8f9fa;
- }
- 
- .carousel-control-prev-icon,
- .carousel-control-next-icon {
-    height: 100%;
-    width: 100%;
-    outline: black;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    background-image: none;
- }
- 
- .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M4.5 0l-.5.5v2.3l-3-3v1.5l3 3h1.5l-3 3v1.5l3-3v1.5l3-3.1v2.3l.5.5h1l.5-.5v-7l-.5-.5h-1z'/%3e%3c/svg%3e");
- }
- 
- .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M3.5 0l-.5.5v2.3l-3-3v1.5l3 3h1.5l-3 3v1.5l3-3v1.5l3-3.1v2.3l.5.5h1l.5-.5v-7l-.5-.5h-1z'/%3e%3c/svg%3e");
- }
